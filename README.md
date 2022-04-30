@@ -15,6 +15,8 @@
 <br><br>
 
 ### ⛅️Developers <hr/>
+이예지
+임아현
 
 <br><br>
 
