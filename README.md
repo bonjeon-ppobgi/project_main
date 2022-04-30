@@ -5,6 +5,7 @@
 
 <br><br>  
 ### Project Description <hr/>
+> 간략한 프로젝트 소개 글을 작성.
 
 <br><br>
 
@@ -18,6 +19,7 @@
 <br><br>
 
 ### Schedule <hr/>
+notion 주소 - https://sunset-plaster-9e3.notion.site/IPS-Team-0fc5aff2ef5747ad836eed28a8e4767e
 
 <br><br>
 
