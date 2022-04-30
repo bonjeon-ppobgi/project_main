@@ -5,7 +5,7 @@
 
 <br><br>  
 ### Project Description <hr/>
-> 간략한 프로젝트 소개 글을 작성.
+> 간략한 프로젝트 소개 글
 
 <br><br>
 
