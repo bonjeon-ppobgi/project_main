@@ -7,7 +7,7 @@ class Header extends PureComponent {
             <div className='Header'>
          
                 <img src='./icons/logo.png' height={100}/>
-                
+               
 
                 <div id="box">
                     <h3 class ="header-item">오늘, 당신의 마음 날씨는 어떠한가요?</h3>  

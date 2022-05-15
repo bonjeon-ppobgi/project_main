@@ -1,9 +1,12 @@
 import '../styles/App.css';
+import axios from 'axios';
+import React,{useState,useEffect} from 'react';
 import {Route, Switch} from "react-router-dom";
 import TodayPerfume from "../pages/TodayPerfume";
 import Archive from "../pages/Archive";
 
 function App() {
+
   return (
     <div>
         <Switch>
@@ -14,6 +17,8 @@ function App() {
             {/*<Route exact path="/login" component />*/}
             {/*<Route exact path="/mypage" component />*/}
         </Switch>
+
+        
     </div>
 
   );

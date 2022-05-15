@@ -1,5 +1,6 @@
 import {Component} from "react";
 import Modal from "react-modal";
+import ''
 
 class VoteModal extends Component {
 

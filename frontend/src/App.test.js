@@ -1,8 +1,25 @@
-import { render, screen } from '@testing-library/react';
-import App from './component/App';
+//App.test.js
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
+
+import axios from 'axios';
+import React,{useState,useEffect} from 'react';
+
+function App() {
+
+  const sendRequest = async() => {
+    const response = await axios.get('http://localhost:8080');
+    console.log(response);
+    console.log(response.data);
+  };
+
+  useEffect(()=>{
+    sendRequest();    
+  });
+
+  return (
+    <div className="App.test">      
+    </div>
+  );
+}
+
+export default App.test;

@@ -1,6 +1,6 @@
 import '../../styles/BasicCard.css'
 import {PureComponent} from "react";
-import {HeartOutlined,HeartFilled} from '@ant-design/icons';
+
 import LikeButton from '../common/LikeButton';
 
 class BasicCard extends PureComponent {

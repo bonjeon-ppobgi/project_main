@@ -26,16 +26,36 @@
 }
 
 .body {
-  background: rgb(255, 255, 255);
+  background: rgb(213, 211, 211);
   padding: 44px 16px;
   min-height: calc(100vh - 206px); /* 150px = header 88px + navbar 30px + padding 88px */
+}
+
+.today-weather{
+  float:left;
+  padding: 100px;
+  color: rgb(0, 0, 0);
+  
+
+}
+
+.weather-text{
+  color: rgb(0, 0, 0);
+
+}
+
+.today-mind{
+  float:left;
+  padding: 80px;
+
+
 }
 
 
 .today-perfume-text {
   font-family: Noto Sans KR;
   font-weight: 500;
-  font-size: 22px;
+  font-size: 30px;
   margin-bottom: 32px;
 }
 

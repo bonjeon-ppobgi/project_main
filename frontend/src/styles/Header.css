@@ -1,9 +1,11 @@
 #box {
-    width: 300px;
-    border-radius: 8px;
+    width: 800px;
+    height: 55px;
+    border-radius: 5px;
     overflow: hidden;
-    margin: 100px auto;
+    margin: 8px auto;
     transition: all 0.3s cubic-bezier(0.42, 0.0, 0.58, 1.0);
+    background: rgb(239, 237, 237);
   }
   
   #box:hover {
@@ -12,21 +14,22 @@
   }
 
 #box * {
-    padding: 10px;
+    padding: 2px;
   }
   
   #box .heading {
-    font-size: 28px;
+    font-size: 20px;
   }
   
   
   #box .texts {
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 10px;
+    line-height: 15px;
   }
 
 
 .header-item {
     text-align: center;
+    color: gray;
     
 }

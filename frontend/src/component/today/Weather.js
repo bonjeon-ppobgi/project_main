@@ -47,6 +47,7 @@ function Weather(props) {
             {loading ?
                 <div className='weather-text'>로딩 중..</div>
                 :
+                
                 <>
                     <div className='weather-item'>
                         <img src='./icons/calendar.svg' height={19} alt='calendar'/>

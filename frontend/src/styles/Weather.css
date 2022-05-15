@@ -1,7 +1,10 @@
+
+
+
 .weather-container {
     background: #67b184;
-    border-radius: 19px;
-    width: 1000px;
+    border-radius: 20px;
+    width: 1300px;
     height: 38px;
     display: flex;
     justify-content: center;
@@ -27,13 +30,3 @@
     color: white;
 }
 
-
-.today-weather{
-    justify-content: center;
-  
-  }
-  
-.today-mind{
-    justify-content: center;
-  
-  }
