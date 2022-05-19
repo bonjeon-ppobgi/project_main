@@ -1,8 +1,8 @@
 import {Component} from "react";
 import Modal from "react-modal";
-import ''
 
-class VoteModal extends Component {
+
+class ChoiceModal extends Component {
 
     render() {
         return (
@@ -20,17 +20,17 @@ class VoteModal extends Component {
                    }}
             >
                 <div>
-                    <div className='vote-modal-text'>
+                    <div className='choice-modal-text'>
                         <div>
                             .<br/>
                             이 기분으로 선택할까요?
                         </div>
                     </div>
-                    <div className='vote-modal-button'>
-                        <div className='button vote-modal-cancel-button' onClick={this.props.onClickCancel}>
+                    <div className='choice-modal-button'>
+                        <div className='button choice-modal-cancel-button' onClick={this.props.onClickCancel}>
                             <div>바꿀래요</div>
                         </div>
-                        <div className='button vote-modal-accept-button' onClick={this.props.onClickAccept}>
+                        <div className='button choice-modal-accept-button' onClick={this.props.onClickAccept}>
                             <div>좋아요!</div>
                         </div>
                     </div>

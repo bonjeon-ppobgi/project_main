@@ -11,7 +11,7 @@ function Weather(props) {
 
     // 날씨 정보 받아와 state 설정
     const getWeather = async (today) => {
-        axios.get('/api/weather')
+        axios.get('/api/mind')
             .then((response) => {
                 if(response.data.success === true) {
                     const data = response.data.data;

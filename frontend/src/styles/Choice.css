@@ -81,7 +81,7 @@
 .voted {
     visibility: visible;
 }
-.vote-modal-text{
+.choice-modal-text{
     width: 100%;
     height: 155px;
     font-family: Noto Sans KR;
@@ -92,10 +92,10 @@
     justify-self: center;
     align-items: center;
 }
-.vote-modal-text > div {
+.choice-modal-text > div {
     width: 100%
 }
-.vote-modal-button {
+.choice-modal-button {
     display: flex;
     font-family: Noto Sans KR;
     font-weight: 500;
@@ -105,7 +105,7 @@
     height: 61px;
     text-align: center;
 }
-.vote-modal-button > div {
+.choice-modal-button > div {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -113,12 +113,12 @@
     height: 100%;
     line-height: 100%;
 }
-.vote-modal-cancel-button  {
+.choice-modal-cancel-button  {
     color: #777882;
     border-top: 1px solid #E0E0E0;
     border-right: 1px solid #E0E0E0;
 }
-.vote-modal-accept-button {
+.choice-modal-accept-button {
     color: #2b1ba9;
     border-top: 1px solid #ffffff;
 }

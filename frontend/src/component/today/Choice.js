@@ -1,8 +1,9 @@
-import '../../styles/Vote.css'
+import '../../styles/Choice.css'
 import {useState, useEffect} from "react";
 import VoteCard from "../PerfumeCard/VoteCard";
 import axios from "axios";
-import VoteModal from "./VoteModal";
+import ChoiceModal from "./ChoiceModal.js";
+
 
 function Vote(props) {
     const [votedPerfume, setVotedPerfume] = useState(null);

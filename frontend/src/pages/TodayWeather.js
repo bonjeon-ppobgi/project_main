@@ -1,11 +1,15 @@
-import { Component } from "react";
+import React, { useEffect, useState, Component } from "react";
 import "../styles/App.css"
+import axios from 'axios';
 import Header from "../component/common/Header";
 import Weather from "../component/today/Weather";
+import "../styles/Choice.css"
 
 
 
-class TodayPerfume extends Component {
+
+
+class TodayWeather extends Component {
     state = {
         date: null,
         weather: null,
@@ -16,6 +20,9 @@ class TodayPerfume extends Component {
             ...weatherInfo
         });
     }
+
+
+
     render() {
         return (
             <>
@@ -50,7 +57,7 @@ class TodayPerfume extends Component {
 
 
                     <div className="today-perfume-text">
-                        {/* 예시 문구 - 추후 수정 */}
+                        { /*예시 문구 - 추후 수정*/ }
                      
             
                     
@@ -97,4 +104,5 @@ class TodayPerfume extends Component {
     }
 }
 
-export default TodayPerfume;
+export default TodayWeather;
+
