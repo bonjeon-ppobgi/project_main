@@ -27,6 +27,10 @@ class TodayWeather extends Component {
         return (
             <>
                 <Header />
+                 <div id="box">
+                    <a href="/keyword" class ="header-item">오늘, 당신의 마음 날씨는 어떠한가요?</a>  
+
+                </div>
                 
                 <div className='body'>
                     <div className='today-weather'>
@@ -93,11 +97,7 @@ class TodayWeather extends Component {
                         <img src='./icons/angry.png' height={40} alt='mind'/>
                     </div>
 
-                    
-
                 </div>
-                
-
             
             </>
         );

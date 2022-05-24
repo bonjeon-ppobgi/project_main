@@ -6,10 +6,11 @@ import TodayPerfume from "../pages/TodayWeather";
 import Archive from "../pages/Archive";
 import KeyWord from '../pages/KeyWord';
 import TodayWeather from '../pages/TodayWeather';
+import Main from '../pages/Main';
 
 
 
-function App() {
+function App(props) {
 
   return (
     <div>
@@ -18,10 +19,8 @@ function App() {
             <Route exact path='/perfume' component={Archive} />
             <Route exact path='/mind' component={TodayWeather} />
             <Route exact path='/keyword' component={KeyWord} />
+            <Route exact path='/main' component={Main} />
 
-            {/*<Route exact path="/search" component />*/}
-            {/*<Route exact path="/login" component />*/}
-            {/*<Route exact path="/mypage" component />*/}
         </Switch>
 
         
