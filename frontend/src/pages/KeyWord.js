@@ -1,10 +1,14 @@
 import react from "react";
+import "../styles/Main.css"
 
 function KeyWord(){
     return(
-        <div>
-            keywordpage
+        <div id ="box">
+            
+        <a href = "/result">keywordpage</a>
+            
         </div>
+     
     )
 }
 
