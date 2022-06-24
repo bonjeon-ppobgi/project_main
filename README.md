@@ -6,6 +6,7 @@
 <br><br>  
 ### ⛅️Project Description <hr/>
 > 오늘의 날씨와 기분에 따른 사용자 맞춤형 콘텐츠 추천 웹 서비스<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6mPGyrpQb8E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br><br>
 
@@ -24,7 +25,6 @@
 <br><br>
 
 ### ⛅️Schedule <hr/>
-notion 주소 - https://sunset-plaster-9e3.notion.site/IPS-Team-0fc5aff2ef5747ad836eed28a8e4767e
 
 <br><br>
 
