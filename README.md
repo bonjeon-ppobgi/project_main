@@ -6,8 +6,8 @@
 <br><br>  
 ### ⛅️Project Description <hr/>
 > 오늘의 날씨와 기분에 따른 사용자 맞춤형 콘텐츠 추천 웹 서비스<br>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6mPGyrpQb8E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+[![Video Label](http://img.youtube.com/vi/'6mPGyrpQb8E'/0.jpg)]
+(https://youtu.be/'6mPGyrpQb8E')
 <br><br>
 
 ### ⛅️개발 기간 <hr/>
